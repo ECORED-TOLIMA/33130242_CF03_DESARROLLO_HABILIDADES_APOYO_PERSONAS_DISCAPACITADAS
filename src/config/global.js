@@ -153,11 +153,6 @@ export default {
         'medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el trans¬porte, la información y las comunicaciones, incluidos los sistemas y las tecnolo¬gías de la información y las comunicaciones, y a otros servicios e instalaciones. Decreto 1421 de 2017.',
     },
     {
-      termino: 'Acciones afirmativas',
-      significado:
-        'medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el trans¬porte, la información y las comunicaciones, incluidos los sistemas y las tecnolo¬gías de la información y las comunicaciones, y a otros servicios e instalaciones. Decreto 1421 de 2017.',
-    },
-    {
       termino: 'Ajustes razonables',
       significado:
         'se entenderán las modificaciones y adaptaciones necesarias y adecuadas que no impongan una carga desproporcionada o indebida, cuando se requieran en un caso particular, para garantizar a las personas con discapacidad el goce o ejercicio, en igualdad de condiciones con las demás, de todos los derechos humanos y libertades fundamentales. (Convención sobre los Derechos de las Personas con Discapacidad, 2006, Art. 2).',
