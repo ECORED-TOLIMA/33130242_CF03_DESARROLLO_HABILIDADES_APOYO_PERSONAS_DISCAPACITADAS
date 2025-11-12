@@ -19,27 +19,25 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1. Aspectos para tener en cuenta en la finalización del informe
 
-    .row.justify-content-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 9.
-          span <em>Representación de un informe</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema3/img-02.svg', alt='La imagen muestra un diseño gráfico simple que combina dos elementos principales sobre un fondo blanco. En el centro izquierdo, se encuentra un ícono que representa un documento o una hoja de papel. Este ícono tiene bordes redondeados y su contorno es de color azul oscuro, mientras que el interior es de un azul más claro y presenta varias líneas horizontales que simulan texto escrito. A la derecha del documento, parcialmente superpuesto sobre él, se encuentra otro ícono de forma circular con bordes ondulados en color azul oscuro y relleno turquesa. Dentro de este círculo, hay un símbolo de aprobación o "me gusta", representado por una mano con el pulgar hacia arriba de color azul oscuro y detalles en naranja intenso que resaltan el diseño. La composición de la imagen transmite una sensación de claridad, simplicidad y profesionalismo, con una paleta de colores suaves y contrastantes. No hay personas ni contextos físicos presentes y la imagen parece estar diseñada para propósitos ilustrativos o educativos, como en materiales de marketing, documentos o tutoriales.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema3/img-02.svg', alt='La imagen muestra un diseño gráfico simple que combina dos elementos principales sobre un fondo blanco. En el centro izquierdo, se encuentra un ícono que representa un documento o una hoja de papel. Este ícono tiene bordes redondeados y su contorno es de color azul oscuro, mientras que el interior es de un azul más claro y presenta varias líneas horizontales que simulan texto escrito. A la derecha del documento, parcialmente superpuesto sobre él, se encuentra otro ícono de forma circular con bordes ondulados en color azul oscuro y relleno turquesa. Dentro de este círculo, hay un símbolo de aprobación o "me gusta", representado por una mano con el pulgar hacia arriba de color azul oscuro y detalles en naranja intenso que resaltan el diseño. La composición de la imagen transmite una sensación de claridad, simplicidad y profesionalismo, con una paleta de colores suaves y contrastantes. No hay personas ni contextos físicos presentes y la imagen parece estar diseñada para propósitos ilustrativos o educativos, como en materiales de marketing, documentos o tutoriales.')
+          span <em>Representación de un informe</em>    
+
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema3/img-18.svg', alt='La imagen muestra un diseño gráfico simple que combina dos elementos principales sobre un fondo blanco. En el centro izquierdo, se encuentra un ícono que representa un documento o una hoja de papel. Este ícono tiene bordes redondeados y su contorno es de color azul oscuro, mientras que el interior es de un azul más claro y presenta varias líneas horizontales que simulan texto escrito. A la derecha del documento, parcialmente superpuesto sobre él, se encuentra otro ícono de forma circular con bordes ondulados en color azul oscuro y relleno turquesa. Dentro de este círculo, hay un símbolo de aprobación o "me gusta", representado por una mano con el pulgar hacia arriba de color azul oscuro y detalles en naranja intenso que resaltan el diseño. La composición de la imagen transmite una sensación de claridad, simplicidad y profesionalismo, con una paleta de colores suaves y contrastantes. No hay personas ni contextos físicos presentes y la imagen parece estar diseñada para propósitos ilustrativos o educativos, como en materiales de marketing, documentos o tutoriales.', style="width: 1043px").m-auto
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .bloque-texto-c.bloque-texto-c.color-primario-medio.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-1.col-10.mb-4.mb-lg-0
+            .col-auto.order-lg-1.order-2.mb-lg-0.mb-3
               figure
                 img(src='@/assets/curso/temas/tema3/img-17.svg', alt='Imagen decorativa')
-            .col-lg-9
+            .col-lg-9.col-12.mb-0.order-lg-2.order-2.mb-lg-0
               p.mb-0 Teniendo en cuenta lo desarrollado en el punto anterior, es importante recordar que los usos del lenguaje, en el informe de valoración de apoyos, son claves y en ese sentido se sugiere:
 
     .row.justify-content-center.mb-4

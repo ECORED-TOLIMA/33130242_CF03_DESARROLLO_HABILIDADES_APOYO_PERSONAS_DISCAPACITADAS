@@ -9,16 +9,14 @@
 
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 2.
-          span <em>Lineamientos valoración de apoyos</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-01.svg', alt='La imagen presenta un diseño gráfico minimalista sobre un fondo blanco. En el centro, se encuentra un rectángulo con bordes negros que simula un formulario o una lista. Dentro de este rectángulo hay tres líneas horizontales de color gris claro, cada una precedida por un círculo, similares a opciones de selección. El primer círculo está marcado con una "palomita" o check de color azul, indicando que esa opción está seleccionada. En la parte superior del rectángulo hay un rectángulo pequeño de color naranja, que podría representar un encabezado o un título. Justo hacia la parte inferior derecha del gráfico del formulario, hay un escudo amarillo con bordes negros y un símbolo de verificación, también en negro, lo que podría simbolizar seguridad o protección. En el fondo, detrás del formulario, hay un círculo grande y amarillo situado ligeramente hacia la izquierda, entremezclado con pequeños círculos y líneas curvas negras que aportan elementos decorativos flotantes al diseño. La atmósfera de la imagen es ordenada, moderna y transmite un concepto de confianza y simplicidad. No aparecen personas en la ilustración; toda la composición está hecha con formas gráficas limpias y colores claros, predominantemente blanco, amarillo, naranja, gris y negro. El diseño parece estar enfocado en representar conceptos como seguridad, validación o selección en un contexto digital.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-01.svg', alt='La imagen presenta un diseño gráfico minimalista sobre un fondo blanco. En el centro, se encuentra un rectángulo con bordes negros que simula un formulario o una lista. Dentro de este rectángulo hay tres líneas horizontales de color gris claro, cada una precedida por un círculo, similares a opciones de selección. El primer círculo está marcado con una "palomita" o check de color azul, indicando que esa opción está seleccionada. En la parte superior del rectángulo hay un rectángulo pequeño de color naranja, que podría representar un encabezado o un título. Justo hacia la parte inferior derecha del gráfico del formulario, hay un escudo amarillo con bordes negros y un símbolo de verificación, también en negro, lo que podría simbolizar seguridad o protección. En el fondo, detrás del formulario, hay un círculo grande y amarillo situado ligeramente hacia la izquierda, entremezclado con pequeños círculos y líneas curvas negras que aportan elementos decorativos flotantes al diseño. La atmósfera de la imagen es ordenada, moderna y transmite un concepto de confianza y simplicidad. No aparecen personas en la ilustración; toda la composición está hecha con formas gráficas limpias y colores claros, predominantemente blanco, amarillo, naranja, gris y negro. El diseño parece estar enfocado en representar conceptos como seguridad, validación o selección en un contexto digital.')
+          span <em>Lineamientos valoración de apoyos</em>  
+
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema2/img-43.svg', alt='La imagen presenta un diseño gráfico minimalista sobre un fondo blanco. En el centro, se encuentra un rectángulo con bordes negros que simula un formulario o una lista. Dentro de este rectángulo hay tres líneas horizontales de color gris claro, cada una precedida por un círculo, similares a opciones de selección. El primer círculo está marcado con una "palomita" o check de color azul, indicando que esa opción está seleccionada. En la parte superior del rectángulo hay un rectángulo pequeño de color naranja, que podría representar un encabezado o un título. Justo hacia la parte inferior derecha del gráfico del formulario, hay un escudo amarillo con bordes negros y un símbolo de verificación, también en negro, lo que podría simbolizar seguridad o protección. En el fondo, detrás del formulario, hay un círculo grande y amarillo situado ligeramente hacia la izquierda, entremezclado con pequeños círculos y líneas curvas negras que aportan elementos decorativos flotantes al diseño. La atmósfera de la imagen es ordenada, moderna y transmite un concepto de confianza y simplicidad. No aparecen personas en la ilustración; toda la composición está hecha con formas gráficas limpias y colores claros, predominantemente blanco, amarillo, naranja, gris y negro. El diseño parece estar enfocado en representar conceptos como seguridad, validación o selección en un contexto digital.', style="width: 1043px").m-auto
 
     .tarjeta--BG03.p-5
       .row.justify-content-center.align-items-center.mb-5
@@ -37,12 +35,13 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
           .bloque-texto-c.color-primario-beige
-            .row.align-items-center
-              .col-lg-3.col-6.mb-4.mb-lg-0
+            .row.align-items-center.align-items-center
+              .col-lg-3.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/temas/tema2/img-27.png', alt='Texto que describa la imagen')
               .col-lg-9
-                p.mb-0(data-aos="fade-left") A continuación, se abordarán aspectos relacionados con el “lineamiento del lenguaje” y el “lineamiento de accesibilidad”, así como otros elementos relacionados con el enfoque centrado en la persona con discapacidad. Estos se consideran fundamentales para la actualización del documento, teniendo en cuenta que, conforme al artículo 12 de la Ley 1996 de 2019, dicho lineamiento y protocolo debe ser revisado y actualizado de manera periódica. 
+                .px-4
+                  p.mb-0(data-aos="fade-left") A continuación, se abordarán aspectos relacionados con el “lineamiento del lenguaje” y el “lineamiento de accesibilidad”, así como otros elementos relacionados con el enfoque centrado en la persona con discapacidad. Estos se consideran fundamentales para la actualización del documento, teniendo en cuenta que, conforme al artículo 12 de la Ley 1996 de 2019, dicho lineamiento y protocolo debe ser revisado y actualizado de manera periódica. 
 
       .row.justify-content-center.align-items-center
         .col-lg-10.col-12
@@ -58,44 +57,41 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.1. Lineamiento del lenguaje
 
-    .row.justify-content-center.mb-5(data-aos="fade-left")
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 3.
-          span <em>Representación lineamiento del lenguaje</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-05.svg', alt='La imagen muestra una ilustración de un grupo diverso de personas reunidas en una manifestación o protesta, en un fondo blanco que sugiere un ambiente exterior simplificado y minimalista. Las figuras están alineadas de manera horizontal y cada una sostiene un cartel de colores vibrantes en alto como símbolo de activismo o expresión. Los colores de los carteles incluyen tonos sólidos de azul, naranja, amarillo y verde. Entre las personas representadas se encuentran una niña pequeña a la izquierda, que lleva un vestido oscuro y sostiene un cartel amarillo frente a ella. A su lado, un hombre de pie, vestido con camiseta verde y pantalones rojizos, sostiene un cartel azul oscuro. Junto a él, una mujer con cabello corto, vestida con blusa amarilla y pantalones oscuros, levanta un cartel naranja. En el centro, se encuentra un hombre usando muletas, con una camiseta azul celeste y pantalones azules oscuros. A su derecha, está una mujer con cabello largo vestida con blusa azul y pantalones anaranjados, sosteniendo un cartel amarillo. Un hombre en silla de ruedas, vestido con ropa casual azul celeste, lleva a su vez un cartel naranja, mientras que la persona ubicada más a la derecha del grupo es una mujer con cabello corto, vestida con una blusa amarilla y falda gris oscuro, sosteniendo un cartel verde. La escena utiliza colores planos y formas geométricas simplificadas para representar a una comunidad variada en términos de género, edad y capacidades físicas. La textura visual es completamente lisa y limpia, típica de ilustraciones modernas. El tono general transmite unidad, inclusión y una energía positiva de empoderamiento colectivo')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-05.svg', alt='La imagen muestra una ilustración de un grupo diverso de personas reunidas en una manifestación o protesta, en un fondo blanco que sugiere un ambiente exterior simplificado y minimalista. Las figuras están alineadas de manera horizontal y cada una sostiene un cartel de colores vibrantes en alto como símbolo de activismo o expresión. Los colores de los carteles incluyen tonos sólidos de azul, naranja, amarillo y verde. Entre las personas representadas se encuentran una niña pequeña a la izquierda, que lleva un vestido oscuro y sostiene un cartel amarillo frente a ella. A su lado, un hombre de pie, vestido con camiseta verde y pantalones rojizos, sostiene un cartel azul oscuro. Junto a él, una mujer con cabello corto, vestida con blusa amarilla y pantalones oscuros, levanta un cartel naranja. En el centro, se encuentra un hombre usando muletas, con una camiseta azul celeste y pantalones azules oscuros. A su derecha, está una mujer con cabello largo vestida con blusa azul y pantalones anaranjados, sosteniendo un cartel amarillo. Un hombre en silla de ruedas, vestido con ropa casual azul celeste, lleva a su vez un cartel naranja, mientras que la persona ubicada más a la derecha del grupo es una mujer con cabello corto, vestida con una blusa amarilla y falda gris oscuro, sosteniendo un cartel verde. La escena utiliza colores planos y formas geométricas simplificadas para representar a una comunidad variada en términos de género, edad y capacidades físicas. La textura visual es completamente lisa y limpia, típica de ilustraciones modernas. El tono general transmite unidad, inclusión y una energía positiva de empoderamiento colectivo')
-    
-    .row.justify-content-center.mb-5(data-aos="fade-left")
+          span <em>Representación lineamiento del lenguaje</em>   
+
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema2/img-44.svg', alt='La imagen muestra una ilustración de un grupo diverso de personas reunidas en una manifestación o protesta, en un fondo blanco que sugiere un ambiente exterior simplificado y minimalista. Las figuras están alineadas de manera horizontal y cada una sostiene un cartel de colores vibrantes en alto como símbolo de activismo o expresión. Los colores de los carteles incluyen tonos sólidos de azul, naranja, amarillo y verde. Entre las personas representadas se encuentran una niña pequeña a la izquierda, que lleva un vestido oscuro y sostiene un cartel amarillo frente a ella. A su lado, un hombre de pie, vestido con camiseta verde y pantalones rojizos, sostiene un cartel azul oscuro. Junto a él, una mujer con cabello corto, vestida con blusa amarilla y pantalones oscuros, levanta un cartel naranja. En el centro, se encuentra un hombre usando muletas, con una camiseta azul celeste y pantalones azules oscuros. A su derecha, está una mujer con cabello largo vestida con blusa azul y pantalones anaranjados, sosteniendo un cartel amarillo. Un hombre en silla de ruedas, vestido con ropa casual azul celeste, lleva a su vez un cartel naranja, mientras que la persona ubicada más a la derecha del grupo es una mujer con cabello corto, vestida con una blusa amarilla y falda gris oscuro, sosteniendo un cartel verde. La escena utiliza colores planos y formas geométricas simplificadas para representar a una comunidad variada en términos de género, edad y capacidades físicas. La textura visual es completamente lisa y limpia, típica de ilustraciones modernas. El tono general transmite unidad, inclusión y una energía positiva de empoderamiento colectivo', style="width: 1043px").m-auto
+
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         p Antes de comenzar con el desarrollo de este lineamiento, se invita a reflexionar sobre los siguientes aspectos durante el proceso de la valoración de apoyos. Omitir esta reflexión puede conllevar el riesgo de generar situaciones de exclusión:
-
-    .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+    
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 4.
-          span <em>Dudas sobre personas con discapacidad</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-06.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con las acciones de personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo se hace referencia a las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-06.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con las acciones de personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo se hace referencia a las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
+          span <em>Dudas sobre personas con discapacidad</em>  
 
-    .row.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure.desktop
+              img(src='@/assets/curso/temas/tema2/img-45.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con las acciones de personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo se hace referencia a las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
+            figure.movil
+              img(src='@/assets/curso/temas/tema2/img-45-2.svg', alt='Descripción: La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas con las acciones de personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo se hace referencia a las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
+
+    .row.no-gutters.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0
         figure.d-none.d-xl-block
-          img(src='@/assets/curso/temas/tema2/img-07.png', alt='').m-auto
-      .col-xl
-        .col-1.d-none.d-lg-block.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema2/img-08.svg' alt="Imagen decorativa")
+          img.img-hero(src='@/assets/curso/temas/tema2/img-07.png', alt='').m-auto
+      .col-xl.px-0
+        .d-flex.align-items-start
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema2/img-08.svg' alt="Imagen decorativa")
         p.mb-0 Luego de responder a los interrogantes anteriores, se presenta a continuación una reflexión sobre el lenguaje y los aspectos que deben considerarse en relación con la valoración de apoyos. Cuando se habla de discapacidad, el lenguaje se convierte en uno de los elementos más relevantes (Díaz, Gómez & Míguez, 2023), ya que su uso puede generar percepciones negativas o juicios de valor. El término “discapacidad” señala una condición o característica que históricamente ha implicado una carga para la persona, con una connotación que, en muchos casos, ha sido interpretada de forma negativa.
 
     .row.justify-content-center.align-items-center.mb-4
@@ -227,7 +223,7 @@
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-10.col-12
-          p Basado en lo anterior, a continuación, se presenta un podcast que destaca la importancia del lenguaje y su poder para transformar las realidades de las personas con discapacidad:
+          p Basado en lo anterior, a continuación, se presenta un #[em podcast] que destaca la importancia del lenguaje y su poder para transformar las realidades de las personas con discapacidad:
 
       .row.justify-content-center
         .col-lg-8
@@ -246,19 +242,17 @@
 
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.2. Lineamiento de accesibilidad
-
-    .row.justify-content-center.mb-5(data-aos="fade-left")
+    
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 5.
-          span <em>Representación del lineamiento de accesibilidad</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-21.svg', alt='La imagen muestra una escena en un entorno de oficina con un fondo de color púrpura. A la izquierda, hay una mujer sentada en una silla de ruedas que viste una camisa roja y pantalones verdes. Está interactuando con un hombre ubicado a la derecha, quien lleva un traje oscuro con camisa blanca y corbata azul, dándole un apretón de manos. Cerca de ellos, a la derecha, se ve un escritorio de madera que tiene una computadora portátil, una lámpara azul y amarilla, y algunos documentos sobre su superficie. Detrás del escritorio hay una silla giratoria azul, lo que completa el mobiliario de oficina. En la esquina inferior derecha de la escena se encuentra una planta verde en una maceta amarilla, que aporta un toque de naturaleza al lugar. La atmósfera transmite profesionalismo y respeto, posiblemente representando un encuentro laboral o una entrevista, con un ambiente inclusivo gracias a la presencia de la mujer en silla de ruedas.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-21.svg', alt='La imagen muestra una escena en un entorno de oficina con un fondo de color púrpura. A la izquierda, hay una mujer sentada en una silla de ruedas que viste una camisa roja y pantalones verdes. Está interactuando con un hombre ubicado a la derecha, quien lleva un traje oscuro con camisa blanca y corbata azul, dándole un apretón de manos. Cerca de ellos, a la derecha, se ve un escritorio de madera que tiene una computadora portátil, una lámpara azul y amarilla, y algunos documentos sobre su superficie. Detrás del escritorio hay una silla giratoria azul, lo que completa el mobiliario de oficina. En la esquina inferior derecha de la escena se encuentra una planta verde en una maceta amarilla, que aporta un toque de naturaleza al lugar. La atmósfera transmite profesionalismo y respeto, posiblemente representando un encuentro laboral o una entrevista, con un ambiente inclusivo gracias a la presencia de la mujer en silla de ruedas.')
+          span <em>Representación del lineamiento de accesibilidad</em>     
+
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema2/img-47.svg', alt='La imagen muestra una escena en un entorno de oficina con un fondo de color púrpura. A la izquierda, hay una mujer sentada en una silla de ruedas que viste una camisa roja y pantalones verdes. Está interactuando con un hombre ubicado a la derecha, quien lleva un traje oscuro con camisa blanca y corbata azul, dándole un apretón de manos. Cerca de ellos, a la derecha, se ve un escritorio de madera que tiene una computadora portátil, una lámpara azul y amarilla, y algunos documentos sobre su superficie. Detrás del escritorio hay una silla giratoria azul, lo que completa el mobiliario de oficina. En la esquina inferior derecha de la escena se encuentra una planta verde en una maceta amarilla, que aporta un toque de naturaleza al lugar. La atmósfera transmite profesionalismo y respeto, posiblemente representando un encuentro laboral o una entrevista, con un ambiente inclusivo gracias a la presencia de la mujer en silla de ruedas.', style="width: 1043px").m-auto
 
     p.mb-4 Cuando se habla de accesibilidad para las personas con discapacidad, es fundamental considerar tres dimensiones clave:
 
@@ -266,7 +260,10 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-22.png')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4(data-aos="fade-left")        
+      .bloque-texto-g__texto.p-4(data-aos="fade-left") 
+        .titulo2.mb-4(data-aos="fade-left")
+          h5.mb-0 La primera es el derecho a la accesibilidad
+        br
         p.mb-0 Este derecho está consagrado en el artículo 9 de la Convención sobre los Derechos de las Personas con Discapacidad (2006), ratificada por Colombia, mediante la Ley 1346 de 2009 y en el artículo 14 de la Ley 1618 de 2013. La Convención reconoce la accesibilidad como un derecho humano, mientras que la Ley Estatutaria 1618 de 2013 —“Por medio de la cual se establecen las disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad”— la define como un derecho fundamental, inherente a esta población.
 
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -323,25 +320,24 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img-29.png', alt='Imagen decorativa')
 
-    .row.justify-content-center.mb-3(data-aos="fade-left")
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
         p Existen múltiples ejemplos de ajustes razonables, que varían según las necesidades específicas de cada persona y tipo de discapacidad. No hay soluciones universales. Cada persona puede elegir qué apoyos, tecnologías o estrategias se ajustan mejor a sus necesidades. Por ello, todo ajuste razonable debe ser concertado directamente con la persona con discapacidad, respetando su voz, sus preferencias y su derecho a decidir. 
 
-    .row.justify-content-center.mb-5(data-aos="fade-left")
-      .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 6.
-          span <em>Dudas sobre accesibilidad</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-30.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre la accesibilidad para personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan dos burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo la accesibilidad se puede dar para personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-30.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre la accesibilidad para personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan dos burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo la accesibilidad se puede dar para personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
+          span <em>Dudas sobre accesibilidad</em>   
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure.desktop
+              img(src='@/assets/curso/temas/tema2/img-49.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre la accesibilidad para personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan dos burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo la accesibilidad se puede dar para personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
+            figure.movil
+              img(src='@/assets/curso/temas/tema2/img-49-2.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre la accesibilidad para personas con discapacidad. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan dos burbujas de diálogo que contienen preguntas relacionadas con la manera en cómo la accesibilidad se puede dar para personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
 
-    .row.mb-5.align-items-center
-      .col-lg-3.order-2
+    .row.mb-4.justify-content-center.align-items-center
+      .col-lg-3.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/tema2/img-41.png", data-aos="zoom-in")
       .col-lg-9.order-1.mb-3.mb-lg-0
@@ -361,19 +357,18 @@
           .col-lg-11
             p.mb-0(data-aos="fade-left") Lo mismo ocurre con la interpretación en lengua de señas dentro de un aula, la audiodescripción para una persona ciega o la construcción de una rampa para una persona con discapacidad física. En todos estos casos, la acción afirmativa es la materialización de los ajustes razonables previamente identificados, con el objetivo de garantizar condiciones de accesibilidad, participación y autonomía para todas las personas.
 
-    .row.justify-content-center.mb-3(data-aos="fade-left")
-      .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+    .row.justify-content-center.mb-4(data-aos="fade-left")
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 7.
-          span <em>Dudas sobre las acciones a realizar en la accesibilidad</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-31.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre las acciones que pueden tomar los facilitadores de apoyo. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con el correcto actuar que puede tomar un facilitador de apoyo, frente a la accesibilidad que deben tener las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-31.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre las acciones que pueden tomar los facilitadores de apoyo. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con el correcto actuar que puede tomar un facilitador de apoyo, frente a la accesibilidad que deben tener las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.')
-    
+          span <em>Dudas sobre las acciones a realizar en la accesibilidad</em>   
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure.desktop
+              img(src='@/assets/curso/temas/tema2/img-50.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre las acciones que pueden tomar los facilitadores de apoyo. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con el correcto actuar que puede tomar un facilitador de apoyo, frente a la accesibilidad que deben tener las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
+            figure.movil
+              img(src='@/assets/curso/temas/tema2/img-50-2.svg', alt='La ilustración presenta a una persona pensativa rodeada de burbujas de diálogo con preguntas relacionadas sobre las acciones que pueden tomar los facilitadores de apoyo. La escena se compone de una figura central, una persona con cabello rojizo y vestimenta verde, situada en el centro de la imagen. Alrededor de ella, se dispersan tres burbujas de diálogo que contienen preguntas relacionadas con el correcto actuar que puede tomar un facilitador de apoyo, frente a la accesibilidad que deben tener las personas con discapacidad. La composición está equilibrada, guiando la vista del espectador a través de las preguntas y hacia la persona central, quien parece estar reflexionando sobre ellas, señalada por los signos de interrogación sobre su cabeza. La disposición de las burbujas de diálogo y su tamaño varían, creando un ritmo visual y enfatizando la importancia de cada cuestión. El sujeto principal es una persona joven, con cabello rojizo largo y una expresión de preocupación, con las manos entrelazadas bajo la barbilla. La vestimenta de la persona consiste en una blusa verde oscura. Los signos de interrogación sobre su cabeza indican incertidumbre o reflexión. El estilo de la imagen es simple y directo, con líneas limpias y colores planos, lo que sugiere una ilustración didáctica o explicativa. La técnica empleada parece ser digital, con contornos definidos y un diseño gráfico. El uso de burbujas de diálogo es característico de las ilustraciones que buscan comunicar información de manera clara y concisa. La paleta de colores es limitada, con tonos suaves y agradables, lo que contribuye a la legibilidad y facilita la comprensión de la información. El fondo es blanco, lo que centra la atención en la persona y las preguntas. La iluminación es uniforme, sin sombras ni efectos especiales, lo que enfatiza la claridad y la simplicidad de la comunicación visual. La ausencia de elementos decorativos en el fondo refuerza el propósito didáctico de la imagen. El ambiente general es neutro, propicio para la reflexión sobre el tema del apoyo y la inclusión, sin distracciones visuales que desvíen la atención del mensaje principal.', style="width: 1043px").m-auto
+
     .tarjeta--BG03.p-5
       .row.justify-content-center.mb-3(data-aos="fade-left")
         .col-lg-10.col-12
@@ -392,39 +387,31 @@
 
       .row.justify-content-center.align-items-center
         .col-lg-10.col-12
-          .row(data-aos="fade-down")
-            .col-auto.d-none.d-lg-block
-              figure
-                img(src='@/assets/curso/temas/tema2/img-38.svg' alt="Imagen decorativa")
-            .col.mb-3
-              p.mb-0 En síntesis, estas tres dimensiones tienen un propósito común y esencial: garantizar el derecho de todas las personas con discapacidad a vivir con libertad, autonomía y plena participación en la sociedad.
+          p.mb-0 En síntesis, estas tres dimensiones tienen un propósito común y esencial: garantizar el derecho de todas las personas con discapacidad a vivir con libertad, autonomía y plena participación en la sociedad.
 
     Separador
 
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.3. Aspectos de enfoque y reflexión del capacitismo 
-
-    .row.justify-content-center.mb-5(data-aos="fade-left")
+    
+    .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 8.
-          span <em>Representación enfoque y capacitismo</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema2/img-33.svg', alt='La imagen muestra una escena al aire libre en un campo de fútbol rodeado de césped verde. Es un día soleado con un cielo azul claro adornado por algunas nubes blancas dispersas. En el centro de la imagen, hay cuatro personas jugando al fútbol, tres hombres y una mujer, todos con prótesis en las piernas que les permiten moverse y participar activamente en el juego. La mujer, situada hacia la derecha y vestida con una camiseta amarilla y pantalones cortos azules, está corriendo con energía hacia el balón blanco y negro que se encuentra cerca de sus pies. Los otros tres jugadores, vestidos con combinaciones de ropa deportiva con tonalidades púrpura y azul, están también en acción persiguiendo el balón, cada uno mostrando una postura dinámica y concentrada. Dos de los hombres tienen prótesis curvas que son características de los diseños para deportes, mientras que el otro usa una prótesis similar que le permite también participar activamente. Detrás de los jugadores, se puede ver una línea de arbustos verdes que marca el límite del campo de juego, añadiendo un elemento natural al fondo. Los movimientos de las personas sugieren competitividad y entusiasmo, creando un ambiente lleno de energía, cooperación y esfuerzo. La ilustración transmite una sensación positiva, promoviendo la inclusión y mostrando la determinación de los participantes. El entorno general es claro y vibrante, destacando un momento de actividad recreativa y deportiva')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema2/img-33.svg', alt='La imagen muestra una escena al aire libre en un campo de fútbol rodeado de césped verde. Es un día soleado con un cielo azul claro adornado por algunas nubes blancas dispersas. En el centro de la imagen, hay cuatro personas jugando al fútbol, tres hombres y una mujer, todos con prótesis en las piernas que les permiten moverse y participar activamente en el juego. La mujer, situada hacia la derecha y vestida con una camiseta amarilla y pantalones cortos azules, está corriendo con energía hacia el balón blanco y negro que se encuentra cerca de sus pies. Los otros tres jugadores, vestidos con combinaciones de ropa deportiva con tonalidades púrpura y azul, están también en acción persiguiendo el balón, cada uno mostrando una postura dinámica y concentrada. Dos de los hombres tienen prótesis curvas que son características de los diseños para deportes, mientras que el otro usa una prótesis similar que le permite también participar activamente. Detrás de los jugadores, se puede ver una línea de arbustos verdes que marca el límite del campo de juego, añadiendo un elemento natural al fondo. Los movimientos de las personas sugieren competitividad y entusiasmo, creando un ambiente lleno de energía, cooperación y esfuerzo. La ilustración transmite una sensación positiva, promoviendo la inclusión y mostrando la determinación de los participantes. El entorno general es claro y vibrante, destacando un momento de actividad recreativa y deportiva')
+          span <em>Representación enfoque y capacitismo</em>   
 
-    .row.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema2/img-48.svg', alt='La imagen muestra una escena al aire libre en un campo de fútbol rodeado de césped verde. Es un día soleado con un cielo azul claro adornado por algunas nubes blancas dispersas. En el centro de la imagen, hay cuatro personas jugando al fútbol, tres hombres y una mujer, todos con prótesis en las piernas que les permiten moverse y participar activamente en el juego. La mujer, situada hacia la derecha y vestida con una camiseta amarilla y pantalones cortos azules, está corriendo con energía hacia el balón blanco y negro que se encuentra cerca de sus pies. Los otros tres jugadores, vestidos con combinaciones de ropa deportiva con tonalidades púrpura y azul, están también en acción persiguiendo el balón, cada uno mostrando una postura dinámica y concentrada. Dos de los hombres tienen prótesis curvas que son características de los diseños para deportes, mientras que el otro usa una prótesis similar que le permite también participar activamente. Detrás de los jugadores, se puede ver una línea de arbustos verdes que marca el límite del campo de juego, añadiendo un elemento natural al fondo. Los movimientos de las personas sugieren competitividad y entusiasmo, creando un ambiente lleno de energía, cooperación y esfuerzo. La ilustración transmite una sensación positiva, promoviendo la inclusión y mostrando la determinación de los participantes. El entorno general es claro y vibrante, destacando un momento de actividad recreativa y deportiva', style="width: 1043px").m-auto
+
+    .row.no-gutters.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0
         figure.d-none.d-xl-block
-          img(src='@/assets/curso/temas/tema2/img-34.png', alt='').m-auto
-      .col-xl
-        .col-1.d-none.d-lg-block.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema2/img-35.svg' alt="Imagen decorativa")
+          img.img-hero(src='@/assets/curso/temas/tema2/img-34.png', alt='').m-auto
+      .col-xl.px-0
+        .d-flex.align-items-start
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema2/img-35.svg' alt="Imagen decorativa")
         p.mb-0 En este punto, es fundamental insistir en que la valoración de apoyos no debe realizarse desde el enfoque de la deficiencia, sino que se propone un cambio de perspectiva centrado en la autonomía de las personas con discapacidad. Este enfoque implica comprender a cada persona, dentro del proceso de valoración, desde su capacidad de autodeterminación, su derecho a la accesibilidad comunicativa y la necesidad de eliminar barreras actitudinales, físicas y comunicativas. Esta mirada favorece la promoción del modelo de vida independiente y de vida en comunidad, así como la incorporación del enfoque biopsicosocial propuesto por la Clasificación Internacional del Funcionamiento, de la Discapacidad y de la Salud (CIF).
 
     .row.justify-content-center.align-items-center.mb-5

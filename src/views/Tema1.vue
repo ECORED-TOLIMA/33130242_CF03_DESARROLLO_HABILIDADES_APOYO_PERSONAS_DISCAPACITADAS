@@ -6,20 +6,18 @@
       .titulo-principal__numero
         span 1
       h1 Planeación y aspectos para tener en cuenta en el informe de la valoración de apoyos
-
+    
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10.col-12
-        .titulo-sexto.color-acento-contenido
+        .titulo-sexto.color-acento-contenido.mb-3.mt-2
           h5 Figura 1.
-          span <em>Comunicación tecnológica</em>          
-      .row.justify-content-center
-        .col-10
-          figure.desktop
-            img(src='@/assets/curso/temas/tema1/img-01.svg', alt='Esta imagen muestra una ilustración estilo caricatura con dos personas interactuando, ubicada en un entorno abstracto que parece relacionado con la comunicación o la tecnología. A la izquierda, hay una persona representada como masculina, con cabello color marrón y vestido con un suéter rojo y pantalones oscuros; su postura refleja que tiene los brazos cruzados, lo que puede denotar interés o reflexión. A la derecha, se encuentra una persona representada como femenina con cabello negro voluminoso y vestida con un suéter amarillo y pantalones oscuros; sostiene una tableta electrónica de color oscuro en una mano, mientras parece estar involucrada en una actividad tecnológica. El fondo tiene un diseño minimalista con colores suaves como tonos verdes y azules, además contiene elementos gráficos como un cuadro de diálogo amarillo y uno blanco con puntos que simbolizan mensajes, pequeños engranajes verdes en el lado izquierdo y una representación de un sobre rojo con signos decorativos a la derecha. También se observa un símbolo de llamada telefónica en blanco cerca de la tableta, lo que refuerza el contexto de comunicación digital. La atmósfera de la imagen es profesional pero amigable, transmitiendo una sensación de interacción dinámica relacionada con tecnología, colaboración o aprendizaje, a través de los objetos tecnológicos y el intercambio de ideas simbolizado por los cuadros de diálogo. Los detalles adicionales, como las hojas en tonos verdes en la parte inferior y las formas abstractas y geométricas alrededor, complementan el tema visual moderno y comunicativo.')
-      .col-12
-        figure.movil
-          img(src='@/assets/curso/temas/tema1/img-01.svg', alt='Esta imagen muestra una ilustración estilo caricatura con dos personas interactuando, ubicada en un entorno abstracto que parece relacionado con la comunicación o la tecnología. A la izquierda, hay una persona representada como masculina, con cabello color marrón y vestido con un suéter rojo y pantalones oscuros; su postura refleja que tiene los brazos cruzados, lo que puede denotar interés o reflexión. A la derecha, se encuentra una persona representada como femenina con cabello negro voluminoso y vestida con un suéter amarillo y pantalones oscuros; sostiene una tableta electrónica de color oscuro en una mano, mientras parece estar involucrada en una actividad tecnológica. El fondo tiene un diseño minimalista con colores suaves como tonos verdes y azules, además contiene elementos gráficos como un cuadro de diálogo amarillo y uno blanco con puntos que simbolizan mensajes, pequeños engranajes verdes en el lado izquierdo y una representación de un sobre rojo con signos decorativos a la derecha. También se observa un símbolo de llamada telefónica en blanco cerca de la tableta, lo que refuerza el contexto de comunicación digital. La atmósfera de la imagen es profesional pero amigable, transmitiendo una sensación de interacción dinámica relacionada con tecnología, colaboración o aprendizaje, a través de los objetos tecnológicos y el intercambio de ideas simbolizado por los cuadros de diálogo. Los detalles adicionales, como las hojas en tonos verdes en la parte inferior y las formas abstractas y geométricas alrededor, complementan el tema visual moderno y comunicativo.')
+          span <em>Comunicación tecnológica</em>    
 
+        .row.bg-color-5.justify-content-center.align-items-center.p-4
+          .col-lg-10
+            figure
+              img(src='@/assets/curso/temas/tema1/img-10.svg', alt='Esta imagen muestra una ilustración estilo caricatura con dos personas interactuando, ubicada en un entorno abstracto que parece relacionado con la comunicación o la tecnología. A la izquierda, hay una persona representada como masculina, con cabello color marrón y vestido con un suéter rojo y pantalones oscuros; su postura refleja que tiene los brazos cruzados, lo que puede denotar interés o reflexión. A la derecha, se encuentra una persona representada como femenina con cabello negro voluminoso y vestida con un suéter amarillo y pantalones oscuros; sostiene una tableta electrónica de color oscuro en una mano, mientras parece estar involucrada en una actividad tecnológica. El fondo tiene un diseño minimalista con colores suaves como tonos verdes y azules, además contiene elementos gráficos como un cuadro de diálogo amarillo y uno blanco con puntos que simbolizan mensajes, pequeños engranajes verdes en el lado izquierdo y una representación de un sobre rojo con signos decorativos a la derecha. También se observa un símbolo de llamada telefónica en blanco cerca de la tableta, lo que refuerza el contexto de comunicación digital. La atmósfera de la imagen es profesional pero amigable, transmitiendo una sensación de interacción dinámica relacionada con tecnología, colaboración o aprendizaje, a través de los objetos tecnológicos y el intercambio de ideas simbolizado por los cuadros de diálogo. Los detalles adicionales, como las hojas en tonos verdes en la parte inferior y las formas abstractas y geométricas alrededor, complementan el tema visual moderno y comunicativo.', style="width: 1043px").m-auto
+        
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(style="background-color:#A8B8FF")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img-02.png')})`}" data-aos="fade-right"
@@ -33,9 +31,6 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.col-12
         .row(data-aos="fade-down")
-          .col-auto.d-none.d-lg-block
-            figure
-              img(src='@/assets/curso/temas/tema1/img-09.svg' alt="Imagen decorativa")
           .col.mb-3
             p.mb-0 El modelo social plantea que la discapacidad surge de la interacción entre una deficiencia y las barreras del entorno que limitan la autonomía. Por ello, se debe tener en cuenta lo siguiente: 
 
@@ -79,14 +74,13 @@
       .col-lg-11
         p.mb-0(data-aos="fade-left") Además, estas resoluciones incluyen un anexo técnico que, mediante preguntas, permite identificar las barreras que enfrentan las personas en su vida cotidiana. Aunque la valoración de apoyos no tiene como objetivo clasificar la discapacidad, conocer el proceso de certificación —y especialmente este anexo— resulta fundamental para comprender que lo que se está identificando son barreras. En el marco de la valoración, esta identificación sirve para proponer ajustes razonables, ya sea en términos de accesibilidad o de apoyos personales.
 
-    .row.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
-      .col-xl-auto
+    .row.no-gutters.align-items-center.mb-5.style___box_1.m-0(data-aos="zoom-in")
+      .col-xl-auto.px-0
         figure.d-none.d-xl-block
-          img(src='@/assets/curso/temas/tema1/img-08.png', alt='').m-auto
-      .col-xl
-        .col-1.d-none.d-lg-block.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema1/icono.svg' alt="Imagen decorativa")
+          img.img-hero(src='@/assets/curso/temas/tema1/img-08.png', alt='').m-auto
+      .col-xl.px-0
+        .d-flex.align-items-start
+          img.icon-inline.d-none.d-lg-block.me-3(src='@/assets/curso/temas/tema1/icono.svg' alt="Imagen decorativa")
         p.mb-0 Se enfatiza, finalmente, que la interdisciplinariedad es clave para una valoración adecuada. Por ello, incorporar criterios de áreas distintas a la medicina o al derecho permite ampliar la comprensión de las necesidades y las posibles respuestas ante los requerimientos de las personas con discapacidad. En última instancia, estas respuestas deben garantizar el ejercicio pleno de capacidades, orientadas a que cada persona pueda alcanzar autonomía y autodeterminación.
 
 

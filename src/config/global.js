@@ -133,7 +133,7 @@ export default {
     {
       tema: '2.1. Lineamiento del lenguaje',
       referencia:
-        'Montenegro, Guevara, E. (2016). El uso del lenguaje más allá de las normas. <em>Sophia: Colección de Filosofía de la Educación,</em> (20), 247–266.',
+        'Montenegro, Guevara, E. (2016). <em>El uso del lenguaje más allá de las normas.</em> Sophia: Colección de Filosofía de la Educación, (20), 247–266.',
       tipo: 'Artículo de Revista',
       link: 'https://www.redalyc.org/pdf/4418/441846839011.pdf ',
     },
@@ -150,7 +150,7 @@ export default {
     {
       termino: 'Accesibilidad',
       significado:
-        'medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el trans¬porte, la información y las comunicaciones, incluidos los sistemas y las tecnolo¬gías de la información y las comunicaciones, y a otros servicios e instalaciones. Decreto 1421 de 2017.',
+        'medidas pertinentes para asegurar el acceso de las personas con discapacidad, en igualdad de condiciones con las demás, al entorno físico, el transporte, la información y las comunicaciones, incluidos los sistemas y las tecnologías de la información y las comunicaciones, y a otros servicios e instalaciones. Decreto 1421 de 2017.',
     },
     {
       termino: 'Ajustes razonables',
@@ -263,7 +263,7 @@ export default {
     {
       referencia:
         'Organización de las Naciones Unidas. (s.f.). <em>Derechos humanos.</em>',
-      link: 'https://www.un.org/es/global-issues/human-right',
+      link: 'https://www.un.org/es/global-issues/human-rights',
     },
     {
       referencia:
@@ -369,12 +369,12 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Lina Marcela Pérez Manchego',
+          nombre: 'Oscar Ivan Uribe Ortiz',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Oscar Ivan Uribe Ortiz',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -384,11 +384,15 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Diego Fernando Velasco Güiza',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Veimar Celis Meléndez',
           cargo: 'Desarrollador <em>full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
-
         {
           nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador <em>full stack</em>',
