@@ -189,37 +189,41 @@
           p.mb-0 En este mismo sentido, la funcionalidad del cuerpo o de la mente es simplemente una expresión de esa diversidad. Que una persona no vea o no escuche es parte natural de la multiplicidad de cuerpos y formas de ser. El modelo de la diversidad funcional propone que los seres humanos son funcionalmente diversos, eliminando así el término “discapacidad”. Esto no invalida el uso de “persona con discapacidad”, que sigue siendo válido por haber sido elegido por el propio colectivo, pero sí plantea que “persona con diversidad funcional” es un término adecuado y pertinente, ya que no se centra en la deficiencia.
 
     .tarjeta--BG03.p-5
-      p.mb-5.text-center En síntesis, los términos utilizados en Colombia desde la Constitución de 1991 han sido:
-
-      .row.mb-5
-        .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="fade-right")
-          .tarjeta-numerada.color-primario.p-5.h-100(style="border: 3px solid #A8B8FF")
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center 
-              b 1991
-            p.text-center.mb-0 Disminuido físico.
-        .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="flip-right")
-          .tarjeta-numerada.color-acento-contenido.p-5.h-100(style="border: 3px solid #5BC0BE")
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center 
-              b 1997
-            p.text-center.mb-0 Limitado.
-        .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="flip-left")
-          .tarjeta-numerada.color-secundario.p-5.h-100(style="border: 3px solid #2142DC")
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b 2006
-            p.text-center.mb-0 Anteponer la palabra persona. Surgen "personas con discapacidad" y "personas en situación de discapacidad".
-        .col-lg.col-md-6.mb-lg-0.mb-4(data-aos="fade-left")
-          .tarjeta-numerada.color-acento-botones.p-5.h-100(style="border: 3px solid #CDECEB")
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b 2008 
-            p.text-center.mb-0 Persona con diversidad funcional.
+      p.mb-4.text-center En síntesis, los términos utilizados en Colombia desde la Constitución de 1991 han sido:
+    
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .tarjeta.tarjeta--BG02.tarjeta.p-4
+            .row.align-items-center
+              .col-lg-auto.mb-3.mb-lg-0.d-none.d-lg-block(data-aos="fade-down")
+                figure
+                  img(src='@/assets/curso/temas/tema2/img-51.svg', alt='Imagen decorativa')
+              .col-lg
+                .cajon.cajon.C01.mb-3
+                  .row.mb-4
+                    .col-auto
+                      .boton.color-acento-botones
+                        <span>1991</span>
+                    .col
+                      p.mb-0 Disminuido físico.
+                  .row.mb-4
+                    .col-auto
+                      .boton.color-acento-botones
+                        <span>1997</span>
+                    .col
+                      p.mb-0 Limitado.
+                  .row.mb-4
+                    .col-auto
+                      .boton.color-acento-botones
+                        <span>2006</span>
+                    .col
+                      p.mb-0 Anteponer la palabra persona. Surgen "personas con discapacidad" y "personas en situación de discapacidad".
+                  .row.mb-4
+                    .col-auto
+                      .boton.color-acento-botones
+                        <span>2008</span>
+                    .col
+                      p.mb-0 Persona con diversidad funcional.
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-10.col-12
