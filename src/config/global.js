@@ -115,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_XX_DU.pdf',
+        download: 'downloads/CFA_03_33130242_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -370,22 +370,22 @@ export default {
       autores: [
         {
           nombre: 'Oscar Ivan Uribe Ortiz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Juan Daniel Polanco Muñoz',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'José Jaime Luis Tang Pinzón',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Diseñador web',
+          cargo: 'Diseñador <em>web</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
