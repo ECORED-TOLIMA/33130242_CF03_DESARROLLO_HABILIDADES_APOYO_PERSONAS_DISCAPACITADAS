@@ -16,7 +16,7 @@
         .row.bg-color-5.justify-content-center.align-items-center.p-4
           .col-lg-10
             figure
-              img(src='@/assets/curso/temas/tema2/img-43.svg', alt='La imagen presenta un diseño gráfico minimalista sobre un fondo blanco. En el centro, se encuentra un rectángulo con bordes negros que simula un formulario o una lista. Dentro de este rectángulo hay tres líneas horizontales de color gris claro, cada una precedida por un círculo, similares a opciones de selección. El primer círculo está marcado con una "palomita" o check de color azul, indicando que esa opción está seleccionada. En la parte superior del rectángulo hay un rectángulo pequeño de color naranja, que podría representar un encabezado o un título. Justo hacia la parte inferior derecha del gráfico del formulario, hay un escudo amarillo con bordes negros y un símbolo de verificación, también en negro, lo que podría simbolizar seguridad o protección. En el fondo, detrás del formulario, hay un círculo grande y amarillo situado ligeramente hacia la izquierda, entremezclado con pequeños círculos y líneas curvas negras que aportan elementos decorativos flotantes al diseño. La atmósfera de la imagen es ordenada, moderna y transmite un concepto de confianza y simplicidad. No aparecen personas en la ilustración; toda la composición está hecha con formas gráficas limpias y colores claros, predominantemente blanco, amarillo, naranja, gris y negro. El diseño parece estar enfocado en representar conceptos como seguridad, validación o selección en un contexto digital.', style="width: 1043px").m-auto
+              img(src='@/assets/curso/temas/tema2/img-52.svg', alt='La imagen presenta un diseño gráfico minimalista sobre un fondo blanco. En el centro, se encuentra un rectángulo con bordes negros que simula un formulario o una lista. Dentro de este rectángulo hay tres líneas horizontales de color gris claro, cada una precedida por un círculo, similares a opciones de selección. El primer círculo está marcado con una "palomita" o check de color azul, indicando que esa opción está seleccionada. En la parte superior del rectángulo hay un rectángulo pequeño de color naranja, que podría representar un encabezado o un título. Justo hacia la parte inferior derecha del gráfico del formulario, hay un escudo amarillo con bordes negros y un símbolo de verificación, también en negro, lo que podría simbolizar seguridad o protección. En el fondo, detrás del formulario, hay un círculo grande y amarillo situado ligeramente hacia la izquierda, entremezclado con pequeños círculos y líneas curvas negras que aportan elementos decorativos flotantes al diseño. La atmósfera de la imagen es ordenada, moderna y transmite un concepto de confianza y simplicidad. No aparecen personas en la ilustración; toda la composición está hecha con formas gráficas limpias y colores claros, predominantemente blanco, amarillo, naranja, gris y negro. El diseño parece estar enfocado en representar conceptos como seguridad, validación o selección en un contexto digital.', style="width: 1043px").m-auto
 
     .tarjeta--BG03.p-5
       .row.justify-content-center.align-items-center.mb-5
@@ -200,17 +200,17 @@
                   img(src='@/assets/curso/temas/tema2/img-51.svg', alt='Imagen decorativa')
               .col-lg
                 .cajon.cajon.C01.mb-3
-                  .row.mb-4
+                  .row.mb-4.align-items-center
                     .col-auto
                       .boton.color-acento-botones
                         <span>1991</span>
-                    .col
+                    .col.d-flex.align-items-center
                       p.mb-0 Disminuido físico.
-                  .row.mb-4
+                  .row.mb-4.align-items-center
                     .col-auto
                       .boton.color-acento-botones
                         <span>1997</span>
-                    .col
+                    .col.d-flex.align-items-center
                       p.mb-0 Limitado.
                   .row.mb-4
                     .col-auto
@@ -218,11 +218,11 @@
                         <span>2006</span>
                     .col
                       p.mb-0 Anteponer la palabra persona. Surgen "personas con discapacidad" y "personas en situación de discapacidad".
-                  .row.mb-4
+                  .row.mb-4.align-items-center
                     .col-auto
                       .boton.color-acento-botones
                         <span>2008</span>
-                    .col
+                    .col.d-flex.align-items-center
                       p.mb-0 Persona con diversidad funcional.
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
