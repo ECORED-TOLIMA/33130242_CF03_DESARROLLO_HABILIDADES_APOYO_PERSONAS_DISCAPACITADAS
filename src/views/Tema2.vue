@@ -227,7 +227,7 @@
 
       .row.justify-content-center.mb-4(data-aos="fade-left")
         .col-lg-10.col-12
-          p Basado en lo anterior, a continuación, se presenta un #[em podcast] que destaca la importancia del lenguaje y su poder para transformar las realidades de las personas con discapacidad:
+          p Basado en lo anterior, a continuación, se presenta un pódcast que destaca la importancia del lenguaje y su poder para transformar las realidades de las personas con discapacidad:
 
       .row.justify-content-center
         .col-lg-8
