@@ -331,12 +331,12 @@ export default {
             {
               id: 'a',
               texto: 'Motivaciones y finalidad del informe.',
-              esCorrecta: false,
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto: 'Acciones para promover la autonomía.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             { id: 'c', texto: 'Decisiones prioritarias.', esCorrecta: false },
             {

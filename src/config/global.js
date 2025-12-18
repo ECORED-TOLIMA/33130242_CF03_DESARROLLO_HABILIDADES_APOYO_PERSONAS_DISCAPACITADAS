@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Lineamientos y protocolo de la valoración de apoyos',
     descripcionCurso:
-      'En este componente formativo se orienta hacia el desarrollo de la valoración de apoyos, aplicando el lineamiento de lenguaje para referirse a las personas con discapacidad. También incluye el lineamiento de accesibilidad, que permite identificar barreras y aplicar ajustes razonables. Todo ello encaminado a la autonomía y el ejercicio pleno de derechos.',
+      'Este componente formativo se orienta hacia el desarrollo de la valoración de apoyos, aplicando el lineamiento de lenguaje para referirse a las personas con discapacidad. También incluye el lineamiento de accesibilidad, que permite identificar barreras y aplicar ajustes razonables. Todo ello encaminado a la autonomía y el ejercicio pleno de derechos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -131,17 +131,17 @@ export default {
   },
   complementario: [
     {
-      tema: '2.1. Lineamiento del lenguaje',
+      tema: '2.1. Lineamiento del lenguaje.',
       referencia:
-        'Montenegro, Guevara, E. (2016). <em>El uso del lenguaje más allá de las normas.</em> Sophia: Colección de Filosofía de la Educación, (20), 247–266.',
-      tipo: 'Artículo de Revista',
+        'Montenegro Guevara, E. (2016). <em>El uso del lenguaje más allá de las normas.</em> Sophia: Colección de Filosofía de la Educación, (20), 247–266.',
+      tipo: 'Artículo de Revista.',
       link: 'https://www.redalyc.org/pdf/4418/441846839011.pdf ',
     },
     {
-      tema: '2.1. Lineamiento del lenguaje',
+      tema: '2.1. Lineamiento del lenguaje.',
       referencia:
         'UNICEF. (2021). <em>Directrices para un lenguaje inclusivo en el ámbito de la discapacidad.</em>',
-      tipo: 'Documento',
+      tipo: 'Documento.',
       link:
         'https://www.unicef.org/peru/sites/unicef.org.peru/files/2021-10/DIRECTRICES%20PARA%20UN%20LENGUAJE%20INCLUSIVO%20EN%20EL%20%C3%81MBITO%20DE%20LA%20DISCAPACIDAD.pdf',
     },
@@ -316,7 +316,7 @@ export default {
       autores: [
         {
           nombre: 'Leidy Castillo Pérez',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {
@@ -326,12 +326,12 @@ export default {
         },
         {
           nombre: 'Mary Blanca Ángel Franco ',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {
           nombre: 'Martha Cecilia Builes Alzate ',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {

@@ -41,7 +41,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img-03.svg", alt="alt").img90.m-auto
           h4.text-center.mb-4.bg-color-2.text-white.p-2 Diagnóstico
-          p.text-center.mb-0 Aunque conocer los diagnósticos médicos y acceder a las historias clínicas puede ser útil para una valoración adecuada, el diagnóstico por sí solo, no determina la existencia de discapacidad.
+          p.text-center.mb-0 Aunque conocer los diagnósticos médicos y acceder a las historias clínicas puede ser útil para una valoración adecuada, el diagnóstico por sí solo no determina la existencia de discapacidad.
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
         .crd.crd--grayGrad(data-aos="flip-left")
           .bottomCircle.mb-5

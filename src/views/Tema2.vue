@@ -237,7 +237,7 @@
           .tarjeta.clr--pink.p-4.rounded-0.h-100
             .tarjeta.bg-white.p-4
               TarjetaAudio.color-acento-contenido.mb-3(
-                texto="El poder del lenguaje hacia una sociedad mas inclusiva"
+                texto="El poder del lenguaje hacia una sociedad más inclusiva"
                 :audio="require('@/assets/curso/podcast/podcast1.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
